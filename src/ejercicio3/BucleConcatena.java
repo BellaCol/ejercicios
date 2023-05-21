@@ -7,6 +7,11 @@ public class BucleConcatena {
         String resultado= "";
         String resultado2= "";
         String espacio = " ";
+        int[]nuni= new int[10];
+        for (int i = 0; i < 10; i++) {
+            nuni[i] = 0;
+        }
+
 
         for (String palabra: cadena1) {
             resultado = resultado + palabra + espacio;
@@ -16,6 +21,15 @@ public class BucleConcatena {
             resultado2 = resultado2 + palabra + espacio;
         }
         System.out.println("Hablando Pinky: " + resultado);
-        System.out.println("Hablando Cerebro: " + resultado2);
+
     }
+//    public static void main(String[] args){
+//        int[]nuni= new int[10];
+//        for (int i = 0; i < 10; i++) {
+//            nuni[i] = i;
+//            System.out.println(nuni);
+//        }
+//
+//
+//    }
 }
