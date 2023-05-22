@@ -1,5 +1,7 @@
 package ejercicio3;
 
+import java.util.StringTokenizer;
+
 public class BucleConcatena {
     public static void main(String[] args){
         String[] cadena1 = {"Hola", "Cerebro!", "que", "vamos", "a hacer", "esta", "noche?"};
@@ -22,7 +24,20 @@ public class BucleConcatena {
         }
         System.out.println("Hablando Pinky: " + resultado);
 
+
+        int varilla=30;
+        String prub = " ";
+        //Boolean pal3= prub.getType()== String;
+        //Boolean pal4= prub.getType().equals("String");
+        //Boolean pal2= prub.instanceofString;
+        Boolean pal = prub.getClass().getSimpleName()=="String";
+        Boolean pal5= varilla%5==0;
+        //Boolean pal6= Math.isDivisible(varilla,5);
+        System.out.println(pal);
+        System.out.println(pal5);
+
     }
+
 //    public static void main(String[] args){
 //        int[]nuni= new int[10];
 //        for (int i = 0; i < 10; i++) {
